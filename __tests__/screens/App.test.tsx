@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react-native';
 import App from '../../App';
 
-test('App contém o texto "Victor"', () => {
+test('Button text', () => {
   const { getByText } = render(<App />);
-  const textElement = getByText('Victor');
+  const textElement = getByText('Iniciar um ciclo');
   expect(textElement).toBeDefined();
 });
