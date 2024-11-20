@@ -1,13 +1,13 @@
-import { StyleSheet, View } from 'react-native';
-import PrimaryButton from './components/PrimaryButton';
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, View, StatusBar } from 'react-native';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <>
-      <StatusBar style="dark" />
+      <StatusBar barStyle="light-content" backgroundColor="#c81a78" />
       <View style={styles.container}>
-        <PrimaryButton>Iniciar um ciclo</PrimaryButton>
+        <Header />
       </View>
     </>
   );
@@ -16,8 +16,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#f1f1f1',
+    paddingTop: 0,
+  },
+  content: {
+    fontSize: 18,
+    marginTop: 20,
+    paddingHorizontal: 15,
   },
 });
