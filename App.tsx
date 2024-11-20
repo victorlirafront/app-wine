@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, StatusBar } from 'react-native';
 import Header from './components/Header';
+import Address from './components/Address';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <StatusBar barStyle="light-content" backgroundColor="#c81a78" />
       <View style={styles.container}>
         <Header />
+        <Address />
       </View>
     </>
   );
