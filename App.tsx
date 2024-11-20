@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, View, StatusBar } from 'react-native';
 import Header from './components/Header';
 import Address from './components/Address';
+import WineUpInformation from './components/WineUpInformation';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <View style={styles.container}>
         <Header />
         <Address />
+        <WineUpInformation />
       </View>
     </>
   );
