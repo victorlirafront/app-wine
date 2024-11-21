@@ -1,5 +1,6 @@
+import React from 'react'; // Adicione esta linha
 import { View, Text, Image, StyleSheet } from 'react-native';
-import { WineUpItemProps } from './index.types';
+import { WineUpItemProps } from './WineUpItem.types';
 
 const WineUpItem = ({
   backgroundColor = '#dbdbdb',

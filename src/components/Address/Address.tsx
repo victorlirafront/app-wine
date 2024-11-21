@@ -5,14 +5,14 @@ const Address = () => {
     <View style={styles.container}>
       <Image
         style={styles.truckIcon}
-        source={require('../../assets/icon/truck.png')}
+        source={require('../../../assets/icon/truck.png')}
         alt="truck icon"
       />
       <Text style={styles.addressText}>
         Av. Getúlio Vargas do Brasil, 1549...
       </Text>
       <Image
-        source={require('../../assets/icon/dropdown.png')}
+        source={require('../../../assets/icon/dropdown.png')}
         alt="dropdown icon"
       />
     </View>

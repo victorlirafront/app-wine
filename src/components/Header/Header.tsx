@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/logo.png')}
+        source={require('../../../assets/logo.png')}
         style={styles.logoIcon}
         alt="logo wine"
       />
       <Image
-        source={require('../../assets/carrinho.png')}
+        source={require('../../../assets/carrinho.png')}
         style={styles.chackoutIcon}
         alt="carrinho icone"
       />
