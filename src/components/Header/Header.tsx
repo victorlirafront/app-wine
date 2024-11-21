@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Image } from 'react-native';
 import styles from './Address.styled';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <View style={styles.container}>
       <Image

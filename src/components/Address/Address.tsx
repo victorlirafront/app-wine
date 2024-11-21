@@ -1,7 +1,7 @@
 import { Image, Text, View } from 'react-native';
 import styles from './Address.styles';
 
-const Address = () => {
+const Address: React.FC = () => {
   return (
     <View style={styles.container}>
       <Image

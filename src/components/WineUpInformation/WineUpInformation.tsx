@@ -2,7 +2,7 @@ import { View, Image } from 'react-native';
 import WineUpItem from '../WineUpItem/WineUpItem';
 import styles from './WineUpInformation.styled';
 
-const WineUpInformation = () => {
+const WineUpInformation: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.iconsWrapper}>

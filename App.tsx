@@ -4,6 +4,7 @@ import Header from './src/components/Header/Header';
 import Address from './src/components/Address/Address';
 import WineUpInformation from './src/components/WineUpInformation/WineUpInformation';
 import MiniBanner from './src/components/MiniBanner/MiniBanner';
+import Carousel from './src/components/Carousel/Carousel';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Header />
         <Address />
         <WineUpInformation />
+        <Carousel />
         <MiniBanner />
       </View>
     </>
