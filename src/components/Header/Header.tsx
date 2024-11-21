@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, StyleSheet, Image } from 'react-native';
+import { View, Image } from 'react-native';
+import styles from './Address.styled';
 
 const Header = () => {
   return (
@@ -17,39 +18,5 @@ const Header = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 15,
-    paddingVertical: 10,
-    backgroundColor: '#fff',
-  },
-  backButton: {
-    padding: 10,
-  },
-  backText: {
-    color: '#fff',
-    fontSize: 16,
-  },
-  title: {
-    color: '#fff',
-    fontSize: 18,
-
-    fontWeight: 'bold',
-  },
-  logoIcon: {
-    padding: 30,
-    width: 100,
-    resizeMode: 'contain',
-  },
-
-  chackoutIcon: {
-    width: 48,
-    height: 48,
-  },
-});
 
 export default Header;

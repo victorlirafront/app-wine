@@ -1,4 +1,5 @@
-import { Image, Text, StyleSheet, View } from 'react-native';
+import { Image, Text, View } from 'react-native';
+import styles from './Address.styles';
 
 const Address = () => {
   return (
@@ -20,21 +21,3 @@ const Address = () => {
 };
 
 export default Address;
-
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-  },
-  truckIcon: {
-    marginRight: 10,
-  },
-  addressText: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    marginRight: 10,
-  },
-});

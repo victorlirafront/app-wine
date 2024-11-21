@@ -1,5 +1,6 @@
-import { View, StyleSheet, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import WineUpItem from '../WineUpItem/WineUpItem';
+import styles from './WineUpInformation.styled';
 
 const WineUpInformation = () => {
   return (
@@ -36,15 +37,3 @@ const WineUpInformation = () => {
 };
 
 export default WineUpInformation;
-
-const styles = StyleSheet.create({
-  container: {
-    paddingVertical: 5,
-    paddingHorizontal: 24,
-  },
-  iconsWrapper: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-  },
-});
