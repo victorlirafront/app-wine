@@ -4,9 +4,12 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 16,
+    paddingTop: 16,
+    paddingHorizontal: 16,
   },
   image: {
+    borderRadius: 4,
+    overflow: 'hidden',
     width: '100%',
     height: 60,
   },

@@ -14,6 +14,7 @@ export default function App() {
         <Header />
         <Address />
         <WineUpInformation />
+        <MiniBanner />
         <Carousel />
         <MiniBanner />
       </View>
