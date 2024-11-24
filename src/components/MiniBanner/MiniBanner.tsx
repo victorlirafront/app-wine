@@ -1,13 +1,14 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 import styles from './MiniBanner.styled';
+import { MiniBannerProps } from './MiniBanner.types';
 
-const MiniBanner: React.FC = () => {
+const MiniBanner: React.FC<MiniBannerProps> = ({ uri }) => {
   return (
     <View style={styles.container}>
       <Image
         source={{
-          uri: 'https://img.wine.com.br/revista-digital/cms/mais20_mini_banner_c2c70d5afa.webp',
+          uri: uri,
         }}
         style={styles.image}
         resizeMode="contain"

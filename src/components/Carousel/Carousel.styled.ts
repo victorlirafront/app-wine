@@ -11,17 +11,17 @@ export let styles = StyleSheet.create({
   slide1: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#9DD6EB',
+    backgroundColor: '#ccc',
   },
   slide2: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#97CAE5',
+    backgroundColor: '#ccc',
   },
   slide3: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#92BBD9',
+    backgroundColor: '#ccc',
   },
   image: {
     width: '100%',
