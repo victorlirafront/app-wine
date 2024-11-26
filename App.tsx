@@ -5,8 +5,9 @@ import Address from './src/components/Address/Address';
 import WineUpInformation from './src/components/WineUpInformation/WineUpInformation';
 import MiniBanner from './src/components/MiniBanner/MiniBanner';
 import Carousel from './src/components/Carousel/Carousel';
-import { MINIBANNERS } from './src/constants/images';
+import { BANNER_EXTRA, MINIBANNERS } from './src/constants/images';
 import ExpressDelivery from './src/components/ExpressDelivery/ExpressDelivery';
+import FeaturedBanner from './src/components/ FeaturedBanner/FeaturedBanner';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Carousel />
           <MiniBanner uri={MINIBANNERS[1]} />
           <ExpressDelivery />
+          <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
         </ScrollView>
       </View>
     </>
