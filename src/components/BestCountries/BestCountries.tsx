@@ -1,4 +1,18 @@
-import { View, StyleSheet, Text, Image } from 'react-native';
+import { View, Text, Image } from 'react-native';
+import styles from './BestCountries.styled';
+import { countries } from './BestCountriesObject';
+
+const CountryBox = ({ name, flagUri }: { name: string; flagUri: string }) => (
+  <View style={styles.countryBox}>
+    <Image
+      style={styles.countryImage}
+      source={{ uri: flagUri }}
+      accessibilityLabel={`Bandeira de ${name}`}
+      alt={`Bandeira de ${name}`}
+    />
+    <Text style={styles.countryName}>{name}</Text>
+  </View>
+);
 
 const BestCountries = () => {
   return (
@@ -14,47 +28,32 @@ const BestCountries = () => {
             source={{
               uri: 'https://img.wine.com.br/martech/external/app-wine/icons/arrow-right.png',
             }}
+            accessibilityLabel="Seta apontando para a direita"
             alt="arrow right"
           />
         </View>
       </View>
-      <View></View>
+
+      <View style={[styles.countryRow, { marginTop: 18 }]}>
+        {countries.slice(0, 4).map((country, index) => (
+          <CountryBox
+            key={index}
+            name={country.name}
+            flagUri={country.flagUri}
+          />
+        ))}
+      </View>
+      <View style={[styles.countryRow, { marginTop: 16 }]}>
+        {countries.slice(4, 8).map((country, index) => (
+          <CountryBox
+            key={index}
+            name={country.name}
+            flagUri={country.flagUri}
+          />
+        ))}
+      </View>
     </View>
   );
 };
 
 export default BestCountries;
-
-const styles = StyleSheet.create({
-  container: {
-    paddingHorizontal: 16,
-    width: '100%',
-    marginTop: 16,
-  },
-  title: {
-    flexDirection: 'row',
-    width: '100%',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  titleText: {
-    flex: 1, // Garante que o texto principal ocupe o espaço restante
-    fontSize: 18,
-    color: '#000',
-    fontWeight: '700',
-    lineHeight: 22,
-  },
-  linkContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  link: {
-    fontSize: 12,
-    color: '#C81A78',
-    marginRight: 4, // Espaçamento entre o texto e o ícone
-  },
-  arrowIcon: {
-    width: 12,
-    height: 10, // Ajuste o tamanho do ícone
-  },
-});
