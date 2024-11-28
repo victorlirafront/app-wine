@@ -1,6 +1,7 @@
 import { View, Text, Image } from 'react-native';
 import styles from './BestCountries.styled';
 import { countries } from './BestCountriesObject';
+import { ARROW_RIGHT } from '../../constants/images';
 
 const CountryBox = ({ name, flagUri }: { name: string; flagUri: string }) => (
   <View style={styles.countryBox}>
@@ -26,7 +27,7 @@ const BestCountries = () => {
           <Image
             style={styles.arrowIcon}
             source={{
-              uri: 'https://img.wine.com.br/martech/external/app-wine/icons/arrow-right.png',
+              uri: ARROW_RIGHT,
             }}
             accessibilityLabel="Seta apontando para a direita"
             alt="arrow right"

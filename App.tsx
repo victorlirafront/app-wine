@@ -9,6 +9,7 @@ import { BANNER_EXTRA, MINIBANNERS } from './src/constants/images';
 import ExpressDelivery from './src/components/ExpressDelivery/ExpressDelivery';
 import FeaturedBanner from './src/components/ FeaturedBanner/FeaturedBanner';
 import BestCountries from './src/components/BestCountries/BestCountries';
+import RecommendedProducts from './src/components/RecommendedProducts/RecommendedProducts';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <MiniBanner uri={MINIBANNERS[1]} />
           <ExpressDelivery />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
+          <RecommendedProducts />
           <BestCountries />
         </ScrollView>
       </View>

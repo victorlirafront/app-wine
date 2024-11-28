@@ -15,3 +15,6 @@ export const MINIBANNERS = [
 export const BANNER_EXTRA = [
   'https://img.wine.com.br/martech/external/app-wine/banner-extra/extra-0.webp?v=1',
 ];
+
+export const ARROW_RIGHT =
+  'https://img.wine.com.br/martech/external/app-wine/icons/arrow-right.png';
