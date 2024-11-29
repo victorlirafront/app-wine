@@ -26,6 +26,8 @@ export default function App() {
           <ExpressDelivery />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
           <RecommendedProducts />
+          <FeaturedBanner bannerExtraImage={BANNER_EXTRA[1]} />
+          <FeaturedBanner bannerExtraImage={BANNER_EXTRA[2]} />
           <BestCountries />
         </ScrollView>
       </View>
