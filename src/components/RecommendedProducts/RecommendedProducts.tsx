@@ -19,12 +19,9 @@ const RecommendedProducts: React.FC<Props> = () => {
     <View key={index} style={styles.slide}>
       {group.map((item: string, itemIndex: number) => (
         <View key={itemIndex} style={[styles.product, styles.sliderItem]}>
-          <View>
-            <Image
-              source={{ uri: item }}
-              style={{ width: 100, height: 100 }}
-              alt="slider image"
-            />
+          <View style={styles.productBox}> </View>
+          <View style={styles.addToCartButton}>
+            <Text style={styles.addToCartText}>Adicionar</Text>
           </View>
         </View>
       ))}

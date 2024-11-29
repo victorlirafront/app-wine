@@ -45,10 +45,32 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   sliderItem: {
-    borderWidth: 1,
-    borderColor: 'red',
     height: 442,
     width: 156,
+  },
+  productBox: {
+    width: '100%',
+    flex: 1,
+    height: 34,
+    shadowOffset: { width: 0, height: 2 }, // Posição da sombra
+    shadowOpacity: 0.8, // Transparência da sombra
+    shadowRadius: 3, // Difusão da sombra
+    elevation: 1, // Para Android, altura da sombra
+  },
+  addToCartButton: {
+    width: '100%',
+    backgroundColor: '#7EBC43',
+    height: 40,
+    marginTop: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+    borderRadius: 4,
+  },
+  addToCartText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '700',
   },
   product: {
     flex: 1,
