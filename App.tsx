@@ -27,7 +27,17 @@ export default function App() {
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
           <RecommendedProducts />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[1]} />
+          <RecommendedProducts />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[2]} />
+          {/* ESPECIAIS */}
+          <RecommendedProducts />
+          <MiniBanner uri={MINIBANNERS[1]} />
+          <RecommendedProducts />
+          {/* ESPECIAIS */}
+          <MiniBanner uri={MINIBANNERS[1]} />
+          <RecommendedProducts />
+          <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
+          <FeaturedBanner bannerExtraImage={BANNER_EXTRA[1]} />
           <BestCountries />
         </ScrollView>
       </View>
@@ -41,6 +51,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#f1f1f1',
   },
   scrollContainer: {
-    paddingVertical: 10, // Ajusta o espaçamento entre os itens
+    paddingVertical: 10,
   },
 });

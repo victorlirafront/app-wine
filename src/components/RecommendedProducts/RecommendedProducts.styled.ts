@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
@@ -52,10 +52,19 @@ export const styles = StyleSheet.create({
     width: '100%',
     flex: 1,
     height: 34,
-    shadowOffset: { width: 0, height: 2 }, // Posição da sombra
-    shadowOpacity: 0.8, // Transparência da sombra
-    shadowRadius: 3, // Difusão da sombra
-    elevation: 1, // Para Android, altura da sombra
+    ...Platform.select({
+      ios: {
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.8,
+        shadowRadius: 3,
+      },
+      android: {
+        elevation: 5,
+      },
+    }),
+    backgroundColor: '#fff',
+    borderRadius: 4,
   },
   addToCartButton: {
     width: '100%',
