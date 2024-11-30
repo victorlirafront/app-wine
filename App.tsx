@@ -10,6 +10,7 @@ import ExpressDelivery from './src/components/ExpressDelivery/ExpressDelivery';
 import FeaturedBanner from './src/components/ FeaturedBanner/FeaturedBanner';
 import BestCountries from './src/components/BestCountries/BestCountries';
 import RecommendedProducts from './src/components/RecommendedProducts/RecommendedProducts';
+import SpecialBanner from './src/components/SpecialBanner/SpecialBanner';
 
 export default function App() {
   return (
@@ -29,11 +30,11 @@ export default function App() {
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[1]} />
           <RecommendedProducts />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[2]} />
-          {/* ESPECIAIS */}
+          <SpecialBanner />
           <RecommendedProducts />
           <MiniBanner uri={MINIBANNERS[1]} />
           <RecommendedProducts />
-          {/* ESPECIAIS */}
+          <SpecialBanner />
           <MiniBanner uri={MINIBANNERS[1]} />
           <RecommendedProducts />
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[0]} />
