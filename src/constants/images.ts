@@ -20,3 +20,44 @@ export const BANNER_EXTRA = [
 
 export const ARROW_RIGHT =
   'https://img.wine.com.br/martech/external/app-wine/icons/arrow-right.png';
+
+export const SPECIAL_BANNER = [
+  {
+    image: 'https://img.wine.com.br/martech/external/app-wine/especiais/0.png',
+    text: ' Imperdível 😍 ',
+  },
+  {
+    image: 'https://img.wine.com.br/martech/external/app-wine/especiais/1.webp',
+    text: ' Arrasador 😎 ',
+  },
+  {
+    image: 'https://img.wine.com.br/martech/external/app-wine/especiais/2.png',
+    text: ' Espetacular 👌 ',
+  },
+  {
+    image: 'https://img.wine.com.br/martech/external/app-wine/especiais/3.webp',
+    text: ' Impressionante ✨ ',
+  },
+];
+
+const SPECIAL_BANNER_2 = [
+  {
+    image:
+      'https://img.wine.com.br/martech/external/app-wine/especiais-2/24_especial_340f0676c5.webp',
+    text: ' Imperdível 😍 ',
+  },
+  {
+    image:
+      'https://img.wine.com.br/martech/external/app-wine/especiais-2/29_especial_1f72ecd393.webp',
+    text: ' Arrasador 😎 ',
+  },
+  {
+    image:
+      'https://img.wine.com.br/martech/external/app-wine/especiais-2/54_especial_fc6f48c445.webp',
+    text: ' Espetacular 👌 ',
+  },
+  {
+    image: 'https://img.wine.com.br/martech/external/app-wine/especiais/3.webp',
+    text: ' Impressionante ✨ ',
+  },
+];

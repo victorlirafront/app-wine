@@ -39,16 +39,16 @@ export const styles = StyleSheet.create({
   addToCartButton: {
     width: '100%',
     backgroundColor: '#fff',
-    height: 40,
+    height: 30,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
     borderRadius: 4,
   },
   addToCartText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: '700',
+    color: '#000',
+    fontSize: 14,
+    fontWeight: '500',
   },
   product: {
     flex: 1,
