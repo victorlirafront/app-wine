@@ -66,6 +66,43 @@ export const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 4,
   },
+  starWrapper: {
+    height: 35,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingRight: 16,
+    paddingLeft: 8,
+  },
+  starBox: {
+    height: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  starIcon: {
+    width: 16,
+    height: 16,
+    marginRight: 3,
+  },
+  starNote: {
+    fontSize: 10,
+    fontWeight: '400',
+    lineHeight: 16,
+    color: '#555555',
+  },
+
+  dotsBox: {
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+
+  dotsIcon: {
+    height: 16,
+    resizeMode: 'contain',
+  },
+
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',

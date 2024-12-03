@@ -20,7 +20,23 @@ const RecommendedProducts: React.FC<Props> = () => {
       {group.map((item: string, itemIndex: number) => (
         <View key={itemIndex} style={[styles.product, styles.sliderItem]}>
           <View style={styles.productBox}>
-            <Text>adasdf</Text>
+            <View style={styles.starWrapper}>
+              <View style={styles.starBox}>
+                <Image
+                  style={styles.starIcon}
+                  source={require('../../assets/icon/star.png')}
+                  alt="Icone de estrela"
+                />
+                <Text style={styles.starNote}>4.5</Text>
+              </View>
+              <View style={styles.dotsBox}>
+                <Image
+                  style={styles.dotsIcon}
+                  source={require('../../assets/icon/dots.png')}
+                  alt="pontos"
+                />
+              </View>
+            </View>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>
