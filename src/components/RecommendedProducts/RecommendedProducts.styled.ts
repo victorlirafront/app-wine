@@ -114,6 +114,12 @@ export const styles = StyleSheet.create({
     width: 124,
     height: 183,
   },
+  //bottle end
+
+  //country init
+
+  countryWrapper: {},
+  //country end
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',
