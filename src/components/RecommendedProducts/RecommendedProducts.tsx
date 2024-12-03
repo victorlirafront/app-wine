@@ -37,6 +37,13 @@ const RecommendedProducts: React.FC<Props> = () => {
                 />
               </View>
             </View>
+            <View style={styles.bottleWrapper}>
+              <Image
+                style={styles.bottleImage}
+                source={require('../../assets/bottle.png')}
+                alt="Imagem da garrafa"
+              />
+            </View>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>

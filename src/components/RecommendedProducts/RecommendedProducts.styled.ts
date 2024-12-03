@@ -66,6 +66,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 4,
   },
+  // star start
   starWrapper: {
     height: 35,
     flexDirection: 'row',
@@ -102,7 +103,17 @@ export const styles = StyleSheet.create({
     height: 16,
     resizeMode: 'contain',
   },
+  // star end
+  // bottle start
+  bottleWrapper: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 
+  bottleImage: {
+    width: 124,
+    height: 183,
+  },
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',
