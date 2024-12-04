@@ -128,8 +128,22 @@ export const styles = StyleSheet.create({
     width: 16,
     height: 16,
   },
-
   //country end
+
+  //Wine name
+  wineNameWrapper: {
+    paddingHorizontal: 8,
+  },
+  wineName: {
+    color: '#111',
+    textAlign: 'center',
+    fontSize: 14,
+    fontStyle: 'normal',
+    fontWeight: '700',
+    lineHeight: 17,
+    marginTop: 8,
+  },
+
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',

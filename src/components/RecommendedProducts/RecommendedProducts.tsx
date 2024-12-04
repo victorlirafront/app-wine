@@ -51,6 +51,11 @@ const RecommendedProducts: React.FC<Props> = () => {
                 alt="flag"
               />
             </View>
+            <View style={styles.wineNameWrapper}>
+              <Text style={styles.wineName}>
+                Citadel Tempranillo Tinto - Castilla La Mancha 2018
+              </Text>
+            </View>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>
