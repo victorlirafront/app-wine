@@ -117,8 +117,18 @@ export const styles = StyleSheet.create({
   //bottle end
 
   //country init
+  countryWrapper: {
+    alignItems: 'flex-end',
+    width: '100%',
+    paddingRight: 8,
+    marginTop: -10,
+  },
 
-  countryWrapper: {},
+  countryFlag: {
+    width: 16,
+    height: 16,
+  },
+
   //country end
   addToCartButton: {
     width: '100%',

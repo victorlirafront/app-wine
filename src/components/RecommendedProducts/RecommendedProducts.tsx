@@ -44,7 +44,13 @@ const RecommendedProducts: React.FC<Props> = () => {
                 alt="Imagem da garrafa"
               />
             </View>
-            <View style={styles.countryWrapper}></View>
+            <View style={styles.countryWrapper}>
+              <Image
+                style={styles.countryFlag}
+                source={require('../../assets/ireland.png')}
+                alt="flag"
+              />
+            </View>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>
