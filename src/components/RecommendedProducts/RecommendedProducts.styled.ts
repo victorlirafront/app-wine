@@ -143,6 +143,32 @@ export const styles = StyleSheet.create({
     lineHeight: 17,
     marginTop: 8,
   },
+  //wine name end
+
+  //partner PRICE INIT
+  parterPrice: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    marginTop: 19,
+  },
+
+  partnerText: {
+    color: '#555',
+    textTransform: 'uppercase',
+    fontSize: 10,
+    marginRight: 8,
+  },
+
+  partnerPriceText: {
+    fontSize: 18,
+    fontWeight: '700',
+    lineHeight: 28,
+    color: '#C81A78',
+  },
+
+  //partner PRICE END
 
   addToCartButton: {
     width: '100%',

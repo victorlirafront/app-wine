@@ -56,6 +56,10 @@ const RecommendedProducts: React.FC<Props> = () => {
                 Citadel Tempranillo Tinto - Castilla La Mancha 2018
               </Text>
             </View>
+            <View style={styles.parterPrice}>
+              <Text style={styles.partnerText}>Sócio {'\n'} Wine</Text>
+              <Text style={styles.partnerPriceText}>R$ 30,00</Text>
+            </View>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>
