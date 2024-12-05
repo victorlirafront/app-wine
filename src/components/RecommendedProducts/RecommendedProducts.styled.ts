@@ -33,7 +33,6 @@ export const styles = StyleSheet.create({
   },
 
   sliderContainer: {
-    height: 500,
     paddingTop: 20,
     paddingHorizontal: 16,
     paddingBottom: 20,
@@ -45,7 +44,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   sliderItem: {
-    height: 442,
+    height: 450,
     width: 156,
   },
   productBox: {
@@ -183,7 +182,29 @@ export const styles = StyleSheet.create({
   },
 
   //old price end
+  discountWrapper: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 16,
+  },
 
+  priceFromDiscount: {
+    paddingHorizontal: 1,
+    fontSize: 12,
+    color: '#888',
+    fontStyle: 'normal',
+    textDecorationLine: 'line-through',
+  },
+  discountBox: {
+    backgroundColor: '#C4BC86',
+    color: '#fff',
+    marginLeft: 5,
+    fontSize: 12,
+    fontWeight: '400',
+    paddingHorizontal: 8,
+    borderRadius: 4,
+  },
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',
