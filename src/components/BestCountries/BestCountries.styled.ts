@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 16,
     width: '100%',
     marginTop: 16,
+    marginBottom: 40,
   },
   title: {
     flexDirection: 'row',
