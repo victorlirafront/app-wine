@@ -170,6 +170,20 @@ export const styles = StyleSheet.create({
 
   //partner PRICE END
 
+  //old price
+  nonPartnerText: {
+    color: '#888',
+    fontSize: 10,
+    fontStyle: 'normal',
+    fontWeight: '400',
+    lineHeight: 16,
+    textTransform: 'uppercase',
+    marginTop: 5,
+    textAlign: 'center',
+  },
+
+  //old price end
+
   addToCartButton: {
     width: '100%',
     backgroundColor: '#7EBC43',

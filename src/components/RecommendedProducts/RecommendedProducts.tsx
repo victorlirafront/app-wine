@@ -60,6 +60,8 @@ const RecommendedProducts: React.FC<Props> = () => {
               <Text style={styles.partnerText}>Sócio {'\n'} Wine</Text>
               <Text style={styles.partnerPriceText}>R$ 30,00</Text>
             </View>
+
+            <Text style={styles.nonPartnerText}>Não sócio R$ 37,40</Text>
           </View>
           <View style={styles.addToCartButton}>
             <Text style={styles.addToCartText}>Adicionar</Text>
