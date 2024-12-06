@@ -27,6 +27,7 @@
     "react-native": "0.73.6",
     "react-native-permissions": "^5.1.0",
     "react-native-slick": "^1.6.0",
+    "react-native-svg": "^15.10.1",
     "react-test-renderer": "^18.2.0"
   },
   "devDependencies": {
