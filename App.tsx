@@ -11,6 +11,7 @@ import FeaturedBanner from './src/components/ FeaturedBanner/FeaturedBanner';
 import BestCountries from './src/components/BestCountries/BestCountries';
 import RecommendedProducts from './src/components/RecommendedProducts/RecommendedProducts';
 import SpecialBanner from './src/components/SpecialBanner/SpecialBanner';
+import Navigation from './src/components/Navigation/Navigation';
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
           <FeaturedBanner bannerExtraImage={BANNER_EXTRA[1]} />
           <BestCountries />
         </ScrollView>
+        <Navigation />
       </View>
     </>
   );

@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
   },
 
   sliderContainer: {
+    height: 500,
     paddingTop: 20,
     paddingHorizontal: 16,
     paddingBottom: 20,
