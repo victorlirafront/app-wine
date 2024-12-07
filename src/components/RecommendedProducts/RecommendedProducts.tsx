@@ -2,7 +2,6 @@ import { View, Text, Image } from 'react-native';
 import { ARROW_RIGHT, CAROUSEL_01 } from '../../constants/images';
 import { styles } from './RecommendedProducts.styled';
 import Slick from 'react-native-slick';
-import { Props } from './RecommendedProducts.types';
 
 const groupArray = (array: string[], size: number) => {
   const grouped = [];
@@ -12,7 +11,7 @@ const groupArray = (array: string[], size: number) => {
   return grouped;
 };
 
-const RecommendedProducts: React.FC<Props> = () => {
+const RecommendedProducts: React.FC = () => {
   const groupedSlides = groupArray(CAROUSEL_01, 2);
 
   const slidesArray = groupedSlides.map((group, index) => (

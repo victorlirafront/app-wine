@@ -1,7 +1,6 @@
 import { View, Text, Image } from 'react-native';
 import { styles } from './SpecialBanner.styled';
 import Slick from 'react-native-slick';
-import { Props } from './SpecialBanner.types';
 import { SPECIAL_BANNER } from '../../constants/images';
 
 const groupArray = (array, size: number) => {
@@ -12,7 +11,7 @@ const groupArray = (array, size: number) => {
   return grouped;
 };
 
-const SpecialBanner: React.FC<Props> = () => {
+const SpecialBanner: React.FC = () => {
   const groupedSlides = groupArray(SPECIAL_BANNER, 2);
 
   const slidesArray = groupedSlides.map((group, index) => (
@@ -23,6 +22,7 @@ const SpecialBanner: React.FC<Props> = () => {
             <Image
               source={{ uri: item.image }}
               style={{ width: '100%', height: '100%' }}
+              alt="teste"
             />
           </View>
           <View style={styles.addToCartButton}>
